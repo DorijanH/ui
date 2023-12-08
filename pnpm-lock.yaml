@@ -57,8 +57,8 @@ importers:
         specifier: 5.14.20
         version: 5.14.20(@emotion/react@11.11.1)(@emotion/styled@11.11.0)(@types/react@18.2.42)(react@18.2.0)
       '@mui/x-data-grid':
-        specifier: 6.18.3
-        version: 6.18.3(@mui/material@5.14.20)(@mui/system@5.14.20)(@types/react@18.2.42)(react-dom@18.2.0)(react@18.2.0)
+        specifier: 6.18.4
+        version: 6.18.4(@mui/material@5.14.20)(@mui/system@5.14.20)(@types/react@18.2.42)(react-dom@18.2.0)(react@18.2.0)
       '@mui/x-data-grid-pro':
         specifier: 6.18.3
         version: 6.18.3(@mui/material@5.14.20)(@mui/system@5.14.20)(@types/react@18.2.42)(react-dom@18.2.0)(react@18.2.0)
@@ -186,8 +186,8 @@ importers:
         specifier: 5.14.20
         version: 5.14.20(@emotion/react@11.11.1)(@emotion/styled@11.11.0)(@types/react@18.2.42)(react-dom@18.2.0)(react@18.2.0)
       '@mui/x-data-grid':
-        specifier: 6.18.3
-        version: 6.18.3(@mui/material@5.14.20)(@mui/system@5.14.20)(@types/react@18.2.42)(react-dom@18.2.0)(react@18.2.0)
+        specifier: 6.18.4
+        version: 6.18.4(@mui/material@5.14.20)(@mui/system@5.14.20)(@types/react@18.2.42)(react-dom@18.2.0)(react@18.2.0)
       '@mui/x-data-grid-pro':
         specifier: 6.18.3
         version: 6.18.3(@mui/material@5.14.20)(@mui/system@5.14.20)(@types/react@18.2.42)(react-dom@18.2.0)(react@18.2.0)
@@ -1399,6 +1399,27 @@ packages:
 
   /@mui/x-data-grid@6.18.3(@mui/material@5.14.20)(@mui/system@5.14.20)(@types/react@18.2.42)(react-dom@18.2.0)(react@18.2.0):
     resolution: {integrity: sha512-0XTLW6e7cB3QBQKoAgdZN2M4WKxbmy0pJHRA9RrSUn91nInqZgwtxpI5fi7aTpX9vffRaUfKi7epr/zNyvxPOQ==}
+    engines: {node: '>=14.0.0'}
+    peerDependencies:
+      '@mui/material': ^5.4.1
+      '@mui/system': ^5.4.1
+      react: ^17.0.0 || ^18.0.0
+      react-dom: ^17.0.0 || ^18.0.0
+    dependencies:
+      '@babel/runtime': 7.23.5
+      '@mui/material': 5.14.20(@emotion/react@11.11.1)(@emotion/styled@11.11.0)(@types/react@18.2.42)(react-dom@18.2.0)(react@18.2.0)
+      '@mui/system': 5.14.20(@emotion/react@11.11.1)(@emotion/styled@11.11.0)(@types/react@18.2.42)(react@18.2.0)
+      '@mui/utils': 5.14.20(@types/react@18.2.42)(react@18.2.0)
+      clsx: 2.0.0
+      prop-types: 15.8.1
+      react: 18.2.0
+      react-dom: 18.2.0(react@18.2.0)
+      reselect: 4.1.8
+    transitivePeerDependencies:
+      - '@types/react'
+
+  /@mui/x-data-grid@6.18.4(@mui/material@5.14.20)(@mui/system@5.14.20)(@types/react@18.2.42)(react-dom@18.2.0)(react@18.2.0):
+    resolution: {integrity: sha512-uiinfqioCRoesUlJF3gvh67Ja3TrJJvPRTu4Gkf/RQBjr0BDNQ8BJrnuffqD8D/0SVUiqRZvcrjtgG1BIyjKRw==}
     engines: {node: '>=14.0.0'}
     peerDependencies:
       '@mui/material': ^5.4.1
